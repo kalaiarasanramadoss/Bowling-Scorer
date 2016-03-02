@@ -1,4 +1,4 @@
-package com.game.bowling.Imp;
+package com.game.bowling.imp;
 
 import java.io.Serializable;
 import java.util.Locale;
@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 
 import com.game.bowling.action.ScoreBowling;
 import com.game.bowling.bean.ScoreBowlingBean;
-import com.game.bowling.inf.ScoreBowlingInf;
+import com.game.bowling.intermix.ScoreBowlingInf;
 
 /**
  * ScoreBowlingImpl gives implementation for all the methods

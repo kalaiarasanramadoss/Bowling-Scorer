@@ -2,13 +2,21 @@ package com.game.bowling.test;
 
 import java.util.HashMap;
 import java.util.Map;
+
 import junit.framework.TestCase;
+
 import org.junit.Test;
-import com.game.bowling.Imp.ScoreBowlingImpl;
+
 import com.game.bowling.action.ScoreBowling;
 import com.game.bowling.bean.ScoreBowlingBean;
 import com.game.bowling.exception.ScoreBowlingValidationException;
+import com.game.bowling.imp.ScoreBowlingImpl;
 
+/**
+ * Score Bowling test case
+ * @author KR00357908
+ *
+ */
 public class ScoreBowlingTest  extends TestCase {
     
     /**

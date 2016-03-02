@@ -12,10 +12,10 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-import com.game.bowling.Imp.ScoreBowlingImpl;
 import com.game.bowling.bean.ScoreBowlingBean;
 import com.game.bowling.constants.ScoreBowlingConstants;
 import com.game.bowling.exception.ScoreBowlingValidationException;
+import com.game.bowling.imp.ScoreBowlingImpl;
 import com.game.bowling.utils.ScoreBowlingValidation;
 
 /**
